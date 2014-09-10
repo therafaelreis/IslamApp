@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B81015A219BA479B006A74F1 /* CRRNames.m in Sources */ = {isa = PBXBuildFile; fileRef = B81015A119BA479B006A74F1 /* CRRNames.m */; };
+		B826C6BC19BE29B600DF9A59 /* CRRLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B826C6BB19BE29B600DF9A59 /* CRRLocation.m */; };
+		B826C6BE19BE29CB00DF9A59 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B826C6BD19BE29CB00DF9A59 /* MapKit.framework */; };
+		B826C6C019BE3FE500DF9A59 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B826C6BF19BE3FE500DF9A59 /* CoreLocation.framework */; };
+		B826C6C319BE4EDE00DF9A59 /* CRRMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = B826C6C219BE4EDE00DF9A59 /* CRRMapPoint.m */; };
+		B826C6DC19BE621A00DF9A59 /* CRRMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = B826C6DB19BE621A00DF9A59 /* CRRMenuView.m */; };
+		B826C6E019BF6AF300DF9A59 /* places.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B826C6DF19BF6AF300DF9A59 /* places.jpg */; };
+		B826C6E219BF6BC900DF9A59 /* story.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B826C6E119BF6BC900DF9A59 /* story.jpg */; };
+		B826C6E419BF6E6500DF9A59 /* quotes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B826C6E319BF6E6500DF9A59 /* quotes.jpg */; };
+		B826C6E619BF754D00DF9A59 /* duas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B826C6E519BF754D00DF9A59 /* duas.jpg */; };
+		B826C6E819BF75E600DF9A59 /* names.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B826C6E719BF75E600DF9A59 /* names.jpg */; };
+		B826C6EA19BF76C400DF9A59 /* miracle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B826C6E919BF76C400DF9A59 /* miracle.jpg */; };
+		B826C6EC19BF775100DF9A59 /* azan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B826C6EB19BF775100DF9A59 /* azan.jpg */; };
+		B826C6EF19BF782500DF9A59 /* hadith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B826C6EE19BF782500DF9A59 /* hadith.jpg */; };
+		B826C6FC19BF964E00DF9A59 /* CRRHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = B826C6FB19BF964E00DF9A59 /* CRRHistory.m */; };
+		B826C6FF19BF986100DF9A59 /* CRRHistoryCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B826C6FE19BF986100DF9A59 /* CRRHistoryCellTableViewCell.m */; };
+		B826C70219BF9CCA00DF9A59 /* CRRHistoryDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = B826C70119BF9CCA00DF9A59 /* CRRHistoryDetail.m */; };
+		B826C71019BFAC3300DF9A59 /* paperView.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B826C70F19BFAC3300DF9A59 /* paperView.jpg */; };
+		B826C71219BFAC8D00DF9A59 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B826C71119BFAC8D00DF9A59 /* background.png */; };
+		B826C71519BFC26C00DF9A59 /* CRRQuotes.m in Sources */ = {isa = PBXBuildFile; fileRef = B826C71419BFC26C00DF9A59 /* CRRQuotes.m */; };
+		B8305E3C19B8D3DE00B80FBE /* azan2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8305E3A19B8D3DE00B80FBE /* azan2.mp3 */; };
+		B8305E3D19B8D3DE00B80FBE /* azan3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8305E3B19B8D3DE00B80FBE /* azan3.mp3 */; };
+		B8305E3F19B8D4AB00B80FBE /* azan1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8305E3E19B8D4AB00B80FBE /* azan1.mp3 */; };
+		B8305E4619B9749D00B80FBE /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8305E4419B9749D00B80FBE /* pic1.jpg */; };
+		B8305E4719B9749D00B80FBE /* pic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8305E4519B9749D00B80FBE /* pic2.jpg */; };
+		B8305E5319B97AA500B80FBE /* CRRPicturesCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8305E5219B97AA500B80FBE /* CRRPicturesCollectionView.m */; };
+		B8305E5519B97C4500B80FBE /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = B8305E5419B97C4500B80FBE /* photo-frame.png */; };
+		B8305E5819B97F4300B80FBE /* CRRDetailPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = B8305E5719B97F4300B80FBE /* CRRDetailPicture.m */; };
+		B8305E5C19B983D500B80FBE /* pic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8305E5A19B983D500B80FBE /* pic3.jpg */; };
+		B8305E5D19B983D500B80FBE /* pic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8305E5B19B983D500B80FBE /* pic4.jpg */; };
+		B84AED1C19B633E8007CE60C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84AED1B19B633E8007CE60C /* Foundation.framework */; };
+		B84AED1E19B633E8007CE60C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84AED1D19B633E8007CE60C /* CoreGraphics.framework */; };
+		B84AED2019B633E8007CE60C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84AED1F19B633E8007CE60C /* UIKit.framework */; };
+		B84AED2619B633E8007CE60C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B84AED2419B633E8007CE60C /* InfoPlist.strings */; };
+		B84AED2819B633E8007CE60C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B84AED2719B633E8007CE60C /* main.m */; };
+		B84AED2C19B633E8007CE60C /* CRRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B84AED2B19B633E8007CE60C /* CRRAppDelegate.m */; };
+		B84AED2F19B633E8007CE60C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84AED2D19B633E8007CE60C /* Main.storyboard */; };
+		B84AED3419B633E8007CE60C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84AED3319B633E8007CE60C /* Images.xcassets */; };
+		B84AED3B19B633E8007CE60C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84AED3A19B633E8007CE60C /* XCTest.framework */; };
+		B84AED3C19B633E8007CE60C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84AED1B19B633E8007CE60C /* Foundation.framework */; };
+		B84AED3D19B633E8007CE60C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84AED1F19B633E8007CE60C /* UIKit.framework */; };
+		B84AED4519B633E8007CE60C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B84AED4319B633E8007CE60C /* InfoPlist.strings */; };
+		B84AED4719B633E8007CE60C /* Islam_QuotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B84AED4619B633E8007CE60C /* Islam_QuotesTests.m */; };
+		B86295B319B63F0400F71A1F /* ico.png in Resources */ = {isa = PBXBuildFile; fileRef = B86295B219B63F0400F71A1F /* ico.png */; };
+		B86295C219B6624E00F71A1F /* author1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86295C119B6624E00F71A1F /* author1.jpg */; };
+		B86295C419B6632300F71A1F /* author2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86295C319B6632300F71A1F /* author2.jpg */; };
+		B86295C619B663F200F71A1F /* author3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86295C519B663F200F71A1F /* author3.jpg */; };
+		B86295C819B6708800F71A1F /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = B86295C719B6708800F71A1F /* b.png */; };
+		B86295D119B6CCB500F71A1F /* CRRQuranicDua.m in Sources */ = {isa = PBXBuildFile; fileRef = B86295D019B6CCB500F71A1F /* CRRQuranicDua.m */; };
+		B88095F119B7CD8D00FBD8D1 /* CRRAzanSongs.m in Sources */ = {isa = PBXBuildFile; fileRef = B88095F019B7CD8D00FBD8D1 /* CRRAzanSongs.m */; };
+		B88095F519B7D06300FBD8D1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88095F419B7D06300FBD8D1 /* CoreMedia.framework */; };
+		B88095F819B8356100FBD8D1 /* pause_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B88095F619B8356100FBD8D1 /* pause_button.png */; };
+		B88095F919B8356100FBD8D1 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B88095F719B8356100FBD8D1 /* play_button.png */; };
+		B88095FC19B8387500FBD8D1 /* CRRAudioAzan.m in Sources */ = {isa = PBXBuildFile; fileRef = B88095FB19B8387500FBD8D1 /* CRRAudioAzan.m */; };
+		B8B4502C19B6F1DA003BD594 /* CRRDetailDuas.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B4502B19B6F1DA003BD594 /* CRRDetailDuas.m */; };
+		B8B4503319B7B3D3003BD594 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B4503219B7B3D3003BD594 /* AudioToolbox.framework */; };
+		B8B4503519B7B3DA003BD594 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B4503419B7B3DA003BD594 /* AVFoundation.framework */; };
+		B8FDE53919BA740000FBD758 /* CRRNamesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FDE53819BA740000FBD758 /* CRRNamesCell.m */; };
+		E863AE61445B46AEACA79D56 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B39FB1376AB473DAC4D186A /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B84AED3E19B633E8007CE60C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84AED1019B633E8007CE60C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B84AED1719B633E8007CE60C;
+			remoteInfo = "Islam Quotes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3718E845B7B74A3E89A04A1F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		5B39FB1376AB473DAC4D186A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81015A019BA479B006A74F1 /* CRRNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRNames.h; sourceTree = "<group>"; };
+		B81015A119BA479B006A74F1 /* CRRNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRNames.m; sourceTree = "<group>"; };
+		B826C6BA19BE29B600DF9A59 /* CRRLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRLocation.h; sourceTree = "<group>"; };
+		B826C6BB19BE29B600DF9A59 /* CRRLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRLocation.m; sourceTree = "<group>"; };
+		B826C6BD19BE29CB00DF9A59 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B826C6BF19BE3FE500DF9A59 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B826C6C119BE4EDE00DF9A59 /* CRRMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRMapPoint.h; sourceTree = "<group>"; };
+		B826C6C219BE4EDE00DF9A59 /* CRRMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRMapPoint.m; sourceTree = "<group>"; };
+		B826C6DA19BE621A00DF9A59 /* CRRMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRMenuView.h; sourceTree = "<group>"; };
+		B826C6DB19BE621A00DF9A59 /* CRRMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRMenuView.m; sourceTree = "<group>"; };
+		B826C6DF19BF6AF300DF9A59 /* places.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = places.jpg; sourceTree = "<group>"; };
+		B826C6E119BF6BC900DF9A59 /* story.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = story.jpg; sourceTree = "<group>"; };
+		B826C6E319BF6E6500DF9A59 /* quotes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quotes.jpg; sourceTree = "<group>"; };
+		B826C6E519BF754D00DF9A59 /* duas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duas.jpg; sourceTree = "<group>"; };
+		B826C6E719BF75E600DF9A59 /* names.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = names.jpg; sourceTree = "<group>"; };
+		B826C6E919BF76C400DF9A59 /* miracle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miracle.jpg; sourceTree = "<group>"; };
+		B826C6EB19BF775100DF9A59 /* azan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = azan.jpg; sourceTree = "<group>"; };
+		B826C6EE19BF782500DF9A59 /* hadith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hadith.jpg; sourceTree = "<group>"; };
+		B826C6FA19BF964E00DF9A59 /* CRRHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRHistory.h; sourceTree = "<group>"; };
+		B826C6FB19BF964E00DF9A59 /* CRRHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRHistory.m; sourceTree = "<group>"; };
+		B826C6FD19BF986100DF9A59 /* CRRHistoryCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRHistoryCellTableViewCell.h; sourceTree = "<group>"; };
+		B826C6FE19BF986100DF9A59 /* CRRHistoryCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRHistoryCellTableViewCell.m; sourceTree = "<group>"; };
+		B826C70019BF9CCA00DF9A59 /* CRRHistoryDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRHistoryDetail.h; sourceTree = "<group>"; };
+		B826C70119BF9CCA00DF9A59 /* CRRHistoryDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRHistoryDetail.m; sourceTree = "<group>"; };
+		B826C70F19BFAC3300DF9A59 /* paperView.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paperView.jpg; sourceTree = "<group>"; };
+		B826C71119BFAC8D00DF9A59 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		B826C71319BFC26C00DF9A59 /* CRRQuotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRQuotes.h; sourceTree = "<group>"; };
+		B826C71419BFC26C00DF9A59 /* CRRQuotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRQuotes.m; sourceTree = "<group>"; };
+		B8305E3A19B8D3DE00B80FBE /* azan2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = azan2.mp3; sourceTree = "<group>"; };
+		B8305E3B19B8D3DE00B80FBE /* azan3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = azan3.mp3; sourceTree = "<group>"; };
+		B8305E3E19B8D4AB00B80FBE /* azan1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = azan1.mp3; sourceTree = "<group>"; };
+		B8305E4419B9749D00B80FBE /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.jpg; sourceTree = "<group>"; };
+		B8305E4519B9749D00B80FBE /* pic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic2.jpg; sourceTree = "<group>"; };
+		B8305E5119B97AA500B80FBE /* CRRPicturesCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRPicturesCollectionView.h; sourceTree = "<group>"; };
+		B8305E5219B97AA500B80FBE /* CRRPicturesCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRPicturesCollectionView.m; sourceTree = "<group>"; };
+		B8305E5419B97C4500B80FBE /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		B8305E5619B97F4300B80FBE /* CRRDetailPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRDetailPicture.h; sourceTree = "<group>"; };
+		B8305E5719B97F4300B80FBE /* CRRDetailPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRDetailPicture.m; sourceTree = "<group>"; };
+		B8305E5A19B983D500B80FBE /* pic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic3.jpg; sourceTree = "<group>"; };
+		B8305E5B19B983D500B80FBE /* pic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic4.jpg; sourceTree = "<group>"; };
+		B84AED1819B633E8007CE60C /* Islam Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Islam Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84AED1B19B633E8007CE60C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B84AED1D19B633E8007CE60C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B84AED1F19B633E8007CE60C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B84AED2319B633E8007CE60C /* Islam Quotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Islam Quotes-Info.plist"; sourceTree = "<group>"; };
+		B84AED2519B633E8007CE60C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B84AED2719B633E8007CE60C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B84AED2919B633E8007CE60C /* Islam Quotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Islam Quotes-Prefix.pch"; sourceTree = "<group>"; };
+		B84AED2A19B633E8007CE60C /* CRRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRRAppDelegate.h; sourceTree = "<group>"; };
+		B84AED2B19B633E8007CE60C /* CRRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRRAppDelegate.m; sourceTree = "<group>"; };
+		B84AED2E19B633E8007CE60C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B84AED3319B633E8007CE60C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B84AED3919B633E8007CE60C /* Islam QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Islam QuotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84AED3A19B633E8007CE60C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B84AED4219B633E8007CE60C /* Islam QuotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Islam QuotesTests-Info.plist"; sourceTree = "<group>"; };
+		B84AED4419B633E8007CE60C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B84AED4619B633E8007CE60C /* Islam_QuotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Islam_QuotesTests.m; sourceTree = "<group>"; };
+		B86295B219B63F0400F71A1F /* ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico.png; sourceTree = "<group>"; };
+		B86295C119B6624E00F71A1F /* author1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = author1.jpg; sourceTree = "<group>"; };
+		B86295C319B6632300F71A1F /* author2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = author2.jpg; sourceTree = "<group>"; };
+		B86295C519B663F200F71A1F /* author3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = author3.jpg; sourceTree = "<group>"; };
+		B86295C719B6708800F71A1F /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = b.png; path = "Islam Quotes/b.png"; sourceTree = "<group>"; };
+		B86295CF19B6CCB500F71A1F /* CRRQuranicDua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRQuranicDua.h; sourceTree = "<group>"; };
+		B86295D019B6CCB500F71A1F /* CRRQuranicDua.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRQuranicDua.m; sourceTree = "<group>"; };
+		B88095EF19B7CD8D00FBD8D1 /* CRRAzanSongs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRAzanSongs.h; sourceTree = "<group>"; };
+		B88095F019B7CD8D00FBD8D1 /* CRRAzanSongs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRAzanSongs.m; sourceTree = "<group>"; };
+		B88095F219B7CE7300FBD8D1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B88095F419B7D06300FBD8D1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B88095F619B8356100FBD8D1 /* pause_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_button.png; sourceTree = "<group>"; };
+		B88095F719B8356100FBD8D1 /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
+		B88095FA19B8387500FBD8D1 /* CRRAudioAzan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRAudioAzan.h; sourceTree = "<group>"; };
+		B88095FB19B8387500FBD8D1 /* CRRAudioAzan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRAudioAzan.m; sourceTree = "<group>"; };
+		B8B4502A19B6F1DA003BD594 /* CRRDetailDuas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRDetailDuas.h; sourceTree = "<group>"; };
+		B8B4502B19B6F1DA003BD594 /* CRRDetailDuas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRDetailDuas.m; sourceTree = "<group>"; };
+		B8B4503219B7B3D3003BD594 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B8B4503419B7B3DA003BD594 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B8FDE53719BA740000FBD758 /* CRRNamesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRNamesCell.h; sourceTree = "<group>"; };
+		B8FDE53819BA740000FBD758 /* CRRNamesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRNamesCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B84AED1519B633E8007CE60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B826C6C019BE3FE500DF9A59 /* CoreLocation.framework in Frameworks */,
+				B826C6BE19BE29CB00DF9A59 /* MapKit.framework in Frameworks */,
+				B88095F519B7D06300FBD8D1 /* CoreMedia.framework in Frameworks */,
+				B8B4503519B7B3DA003BD594 /* AVFoundation.framework in Frameworks */,
+				B8B4503319B7B3D3003BD594 /* AudioToolbox.framework in Frameworks */,
+				B84AED1E19B633E8007CE60C /* CoreGraphics.framework in Frameworks */,
+				B84AED2019B633E8007CE60C /* UIKit.framework in Frameworks */,
+				B84AED1C19B633E8007CE60C /* Foundation.framework in Frameworks */,
+				E863AE61445B46AEACA79D56 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84AED3619B633E8007CE60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84AED3B19B633E8007CE60C /* XCTest.framework in Frameworks */,
+				B84AED3D19B633E8007CE60C /* UIKit.framework in Frameworks */,
+				B84AED3C19B633E8007CE60C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B826C6F219BF7C6A00DF9A59 /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				B826C71319BFC26C00DF9A59 /* CRRQuotes.h */,
+				B826C71419BFC26C00DF9A59 /* CRRQuotes.m */,
+			);
+			name = Quotes;
+			sourceTree = "<group>";
+		};
+		B826C6F319BF7C8C00DF9A59 /* Hadith */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Hadith;
+			sourceTree = "<group>";
+		};
+		B826C6F419BF7C9800DF9A59 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				B826C6FA19BF964E00DF9A59 /* CRRHistory.h */,
+				B826C6FB19BF964E00DF9A59 /* CRRHistory.m */,
+				B826C6FD19BF986100DF9A59 /* CRRHistoryCellTableViewCell.h */,
+				B826C6FE19BF986100DF9A59 /* CRRHistoryCellTableViewCell.m */,
+				B826C70019BF9CCA00DF9A59 /* CRRHistoryDetail.h */,
+				B826C70119BF9CCA00DF9A59 /* CRRHistoryDetail.m */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		B826C6F519BF7C9D00DF9A59 /* Miracle */ = {
+			isa = PBXGroup;
+			children = (
+				B8305E5219B97AA500B80FBE /* CRRPicturesCollectionView.m */,
+				B8305E5119B97AA500B80FBE /* CRRPicturesCollectionView.h */,
+				B8305E5619B97F4300B80FBE /* CRRDetailPicture.h */,
+				B8305E5719B97F4300B80FBE /* CRRDetailPicture.m */,
+			);
+			name = Miracle;
+			sourceTree = "<group>";
+		};
+		B826C6F619BF7CA200DF9A59 /* Quranic */ = {
+			isa = PBXGroup;
+			children = (
+				B86295CF19B6CCB500F71A1F /* CRRQuranicDua.h */,
+				B86295D019B6CCB500F71A1F /* CRRQuranicDua.m */,
+				B8B4502A19B6F1DA003BD594 /* CRRDetailDuas.h */,
+				B8B4502B19B6F1DA003BD594 /* CRRDetailDuas.m */,
+			);
+			name = Quranic;
+			sourceTree = "<group>";
+		};
+		B826C6F719BF7CA800DF9A59 /* Names */ = {
+			isa = PBXGroup;
+			children = (
+				B81015A019BA479B006A74F1 /* CRRNames.h */,
+				B81015A119BA479B006A74F1 /* CRRNames.m */,
+				B8FDE53719BA740000FBD758 /* CRRNamesCell.h */,
+				B8FDE53819BA740000FBD758 /* CRRNamesCell.m */,
+			);
+			name = Names;
+			sourceTree = "<group>";
+		};
+		B826C6F819BF7CAE00DF9A59 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				B826C6BA19BE29B600DF9A59 /* CRRLocation.h */,
+				B826C6BB19BE29B600DF9A59 /* CRRLocation.m */,
+				B826C6C119BE4EDE00DF9A59 /* CRRMapPoint.h */,
+				B826C6C219BE4EDE00DF9A59 /* CRRMapPoint.m */,
+			);
+			name = Places;
+			sourceTree = "<group>";
+		};
+		B826C6F919BF7CB300DF9A59 /* Azan */ = {
+			isa = PBXGroup;
+			children = (
+				B88095F019B7CD8D00FBD8D1 /* CRRAzanSongs.m */,
+				B88095FA19B8387500FBD8D1 /* CRRAudioAzan.h */,
+				B88095FB19B8387500FBD8D1 /* CRRAudioAzan.m */,
+				B88095EF19B7CD8D00FBD8D1 /* CRRAzanSongs.h */,
+			);
+			name = Azan;
+			sourceTree = "<group>";
+		};
+		B8305E4319B9746500B80FBE /* miracle-pictures */ = {
+			isa = PBXGroup;
+			children = (
+				B8305E5A19B983D500B80FBE /* pic3.jpg */,
+				B8305E5B19B983D500B80FBE /* pic4.jpg */,
+				B8305E5419B97C4500B80FBE /* photo-frame.png */,
+				B8305E4419B9749D00B80FBE /* pic1.jpg */,
+				B8305E4519B9749D00B80FBE /* pic2.jpg */,
+			);
+			name = "miracle-pictures";
+			sourceTree = "<group>";
+		};
+		B84AED0F19B633E8007CE60C = {
+			isa = PBXGroup;
+			children = (
+				B88095DF19B7B7BA00FBD8D1 /* audios */,
+				B86295B419B63F3B00F71A1F /* images */,
+				B84AED2119B633E8007CE60C /* Islam Quotes */,
+				B84AED4019B633E8007CE60C /* Islam QuotesTests */,
+				B84AED1A19B633E8007CE60C /* Frameworks */,
+				B84AED1919B633E8007CE60C /* Products */,
+				3718E845B7B74A3E89A04A1F /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		B84AED1919B633E8007CE60C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B84AED1819B633E8007CE60C /* Islam Quotes.app */,
+				B84AED3919B633E8007CE60C /* Islam QuotesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B84AED1A19B633E8007CE60C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B826C6BF19BE3FE500DF9A59 /* CoreLocation.framework */,
+				B826C6BD19BE29CB00DF9A59 /* MapKit.framework */,
+				B88095F419B7D06300FBD8D1 /* CoreMedia.framework */,
+				B88095F219B7CE7300FBD8D1 /* MediaPlayer.framework */,
+				B8B4503419B7B3DA003BD594 /* AVFoundation.framework */,
+				B8B4503219B7B3D3003BD594 /* AudioToolbox.framework */,
+				B84AED1B19B633E8007CE60C /* Foundation.framework */,
+				B84AED1D19B633E8007CE60C /* CoreGraphics.framework */,
+				B84AED1F19B633E8007CE60C /* UIKit.framework */,
+				B84AED3A19B633E8007CE60C /* XCTest.framework */,
+				5B39FB1376AB473DAC4D186A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B84AED2119B633E8007CE60C /* Islam Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				B826C6DA19BE621A00DF9A59 /* CRRMenuView.h */,
+				B826C6DB19BE621A00DF9A59 /* CRRMenuView.m */,
+				B84AED2A19B633E8007CE60C /* CRRAppDelegate.h */,
+				B84AED2B19B633E8007CE60C /* CRRAppDelegate.m */,
+				B84AED2D19B633E8007CE60C /* Main.storyboard */,
+				B826C6F919BF7CB300DF9A59 /* Azan */,
+				B826C6F219BF7C6A00DF9A59 /* Quotes */,
+				B826C6F319BF7C8C00DF9A59 /* Hadith */,
+				B826C6F419BF7C9800DF9A59 /* History */,
+				B826C6F519BF7C9D00DF9A59 /* Miracle */,
+				B826C6F619BF7CA200DF9A59 /* Quranic */,
+				B826C6F719BF7CA800DF9A59 /* Names */,
+				B826C6F819BF7CAE00DF9A59 /* Places */,
+				B8305E4319B9746500B80FBE /* miracle-pictures */,
+				B84AED2219B633E8007CE60C /* Supporting Files */,
+				B84AED3319B633E8007CE60C /* Images.xcassets */,
+			);
+			path = "Islam Quotes";
+			sourceTree = "<group>";
+		};
+		B84AED2219B633E8007CE60C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B84AED2319B633E8007CE60C /* Islam Quotes-Info.plist */,
+				B84AED2419B633E8007CE60C /* InfoPlist.strings */,
+				B84AED2719B633E8007CE60C /* main.m */,
+				B84AED2919B633E8007CE60C /* Islam Quotes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B84AED4019B633E8007CE60C /* Islam QuotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B84AED4619B633E8007CE60C /* Islam_QuotesTests.m */,
+				B84AED4119B633E8007CE60C /* Supporting Files */,
+			);
+			path = "Islam QuotesTests";
+			sourceTree = "<group>";
+		};
+		B84AED4119B633E8007CE60C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B84AED4219B633E8007CE60C /* Islam QuotesTests-Info.plist */,
+				B84AED4319B633E8007CE60C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B86295B419B63F3B00F71A1F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B86295C719B6708800F71A1F /* b.png */,
+				B88095F619B8356100FBD8D1 /* pause_button.png */,
+				B88095F719B8356100FBD8D1 /* play_button.png */,
+				B826C6E319BF6E6500DF9A59 /* quotes.jpg */,
+				B826C6DF19BF6AF300DF9A59 /* places.jpg */,
+				B826C6EB19BF775100DF9A59 /* azan.jpg */,
+				B826C6EE19BF782500DF9A59 /* hadith.jpg */,
+				B826C6E119BF6BC900DF9A59 /* story.jpg */,
+				B826C71119BFAC8D00DF9A59 /* background.png */,
+				B826C6E919BF76C400DF9A59 /* miracle.jpg */,
+				B826C70F19BFAC3300DF9A59 /* paperView.jpg */,
+				B826C6E519BF754D00DF9A59 /* duas.jpg */,
+				B86295C319B6632300F71A1F /* author2.jpg */,
+				B826C6E719BF75E600DF9A59 /* names.jpg */,
+				B86295C519B663F200F71A1F /* author3.jpg */,
+				B86295C119B6624E00F71A1F /* author1.jpg */,
+				B86295B219B63F0400F71A1F /* ico.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		B88095DF19B7B7BA00FBD8D1 /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				B8305E3E19B8D4AB00B80FBE /* azan1.mp3 */,
+				B8305E3A19B8D3DE00B80FBE /* azan2.mp3 */,
+				B8305E3B19B8D3DE00B80FBE /* azan3.mp3 */,
+			);
+			name = audios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B84AED1719B633E8007CE60C /* Islam Quotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84AED4A19B633E8007CE60C /* Build configuration list for PBXNativeTarget "Islam Quotes" */;
+			buildPhases = (
+				4101AE3DF3EC4918A2AF46F6 /* Check Pods Manifest.lock */,
+				B84AED1419B633E8007CE60C /* Sources */,
+				B84AED1519B633E8007CE60C /* Frameworks */,
+				B84AED1619B633E8007CE60C /* Resources */,
+				E43DDC4788424405995F8473 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Islam Quotes";
+			productName = "Islam Quotes";
+			productReference = B84AED1819B633E8007CE60C /* Islam Quotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B84AED3819B633E8007CE60C /* Islam QuotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84AED4D19B633E8007CE60C /* Build configuration list for PBXNativeTarget "Islam QuotesTests" */;
+			buildPhases = (
+				B84AED3519B633E8007CE60C /* Sources */,
+				B84AED3619B633E8007CE60C /* Frameworks */,
+				B84AED3719B633E8007CE60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B84AED3F19B633E8007CE60C /* PBXTargetDependency */,
+			);
+			name = "Islam QuotesTests";
+			productName = "Islam QuotesTests";
+			productReference = B84AED3919B633E8007CE60C /* Islam QuotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B84AED1019B633E8007CE60C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CRR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = reis;
+				TargetAttributes = {
+					B84AED1719B633E8007CE60C = {
+						DevelopmentTeam = U583TZ65A5;
+					};
+					B84AED3819B633E8007CE60C = {
+						TestTargetID = B84AED1719B633E8007CE60C;
+					};
+				};
+			};
+			buildConfigurationList = B84AED1319B633E8007CE60C /* Build configuration list for PBXProject "Islam Quotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B84AED0F19B633E8007CE60C;
+			productRefGroup = B84AED1919B633E8007CE60C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B84AED1719B633E8007CE60C /* Islam Quotes */,
+				B84AED3819B633E8007CE60C /* Islam QuotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B84AED1619B633E8007CE60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86295C619B663F200F71A1F /* author3.jpg in Resources */,
+				B826C6E019BF6AF300DF9A59 /* places.jpg in Resources */,
+				B8305E4619B9749D00B80FBE /* pic1.jpg in Resources */,
+				B88095F919B8356100FBD8D1 /* play_button.png in Resources */,
+				B826C6E619BF754D00DF9A59 /* duas.jpg in Resources */,
+				B88095F819B8356100FBD8D1 /* pause_button.png in Resources */,
+				B8305E5C19B983D500B80FBE /* pic3.jpg in Resources */,
+				B86295C219B6624E00F71A1F /* author1.jpg in Resources */,
+				B826C6EF19BF782500DF9A59 /* hadith.jpg in Resources */,
+				B8305E4719B9749D00B80FBE /* pic2.jpg in Resources */,
+				B826C6EC19BF775100DF9A59 /* azan.jpg in Resources */,
+				B8305E5D19B983D500B80FBE /* pic4.jpg in Resources */,
+				B8305E3F19B8D4AB00B80FBE /* azan1.mp3 in Resources */,
+				B826C71219BFAC8D00DF9A59 /* background.png in Resources */,
+				B84AED3419B633E8007CE60C /* Images.xcassets in Resources */,
+				B826C6E819BF75E600DF9A59 /* names.jpg in Resources */,
+				B86295C419B6632300F71A1F /* author2.jpg in Resources */,
+				B826C6E419BF6E6500DF9A59 /* quotes.jpg in Resources */,
+				B826C6EA19BF76C400DF9A59 /* miracle.jpg in Resources */,
+				B86295B319B63F0400F71A1F /* ico.png in Resources */,
+				B8305E5519B97C4500B80FBE /* photo-frame.png in Resources */,
+				B8305E3D19B8D3DE00B80FBE /* azan3.mp3 in Resources */,
+				B8305E3C19B8D3DE00B80FBE /* azan2.mp3 in Resources */,
+				B84AED2619B633E8007CE60C /* InfoPlist.strings in Resources */,
+				B826C71019BFAC3300DF9A59 /* paperView.jpg in Resources */,
+				B86295C819B6708800F71A1F /* b.png in Resources */,
+				B826C6E219BF6BC900DF9A59 /* story.jpg in Resources */,
+				B84AED2F19B633E8007CE60C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84AED3719B633E8007CE60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84AED4519B633E8007CE60C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4101AE3DF3EC4918A2AF46F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E43DDC4788424405995F8473 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B84AED1419B633E8007CE60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B826C6FC19BF964E00DF9A59 /* CRRHistory.m in Sources */,
+				B8305E5819B97F4300B80FBE /* CRRDetailPicture.m in Sources */,
+				B826C70219BF9CCA00DF9A59 /* CRRHistoryDetail.m in Sources */,
+				B88095F119B7CD8D00FBD8D1 /* CRRAzanSongs.m in Sources */,
+				B8B4502C19B6F1DA003BD594 /* CRRDetailDuas.m in Sources */,
+				B826C71519BFC26C00DF9A59 /* CRRQuotes.m in Sources */,
+				B81015A219BA479B006A74F1 /* CRRNames.m in Sources */,
+				B826C6DC19BE621A00DF9A59 /* CRRMenuView.m in Sources */,
+				B88095FC19B8387500FBD8D1 /* CRRAudioAzan.m in Sources */,
+				B86295D119B6CCB500F71A1F /* CRRQuranicDua.m in Sources */,
+				B826C6BC19BE29B600DF9A59 /* CRRLocation.m in Sources */,
+				B826C6C319BE4EDE00DF9A59 /* CRRMapPoint.m in Sources */,
+				B826C6FF19BF986100DF9A59 /* CRRHistoryCellTableViewCell.m in Sources */,
+				B8FDE53919BA740000FBD758 /* CRRNamesCell.m in Sources */,
+				B84AED2C19B633E8007CE60C /* CRRAppDelegate.m in Sources */,
+				B8305E5319B97AA500B80FBE /* CRRPicturesCollectionView.m in Sources */,
+				B84AED2819B633E8007CE60C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84AED3519B633E8007CE60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84AED4719B633E8007CE60C /* Islam_QuotesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B84AED3F19B633E8007CE60C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B84AED1719B633E8007CE60C /* Islam Quotes */;
+			targetProxy = B84AED3E19B633E8007CE60C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B84AED2419B633E8007CE60C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84AED2519B633E8007CE60C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B84AED2D19B633E8007CE60C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84AED2E19B633E8007CE60C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B84AED4319B633E8007CE60C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84AED4419B633E8007CE60C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B84AED4819B633E8007CE60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B84AED4919B633E8007CE60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B84AED4B19B633E8007CE60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3718E845B7B74A3E89A04A1F /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Islam Quotes/Islam Quotes-Prefix.pch";
+				INFOPLIST_FILE = "Islam Quotes/Islam Quotes-info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B84AED4C19B633E8007CE60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3718E845B7B74A3E89A04A1F /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Islam Quotes/Islam Quotes-Prefix.pch";
+				INFOPLIST_FILE = "Islam Quotes/Islam Quotes-info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B84AED4E19B633E8007CE60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Islam Quotes.app/Islam Quotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Islam Quotes/Islam Quotes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Islam QuotesTests/Islam QuotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B84AED4F19B633E8007CE60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Islam Quotes.app/Islam Quotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Islam Quotes/Islam Quotes-Prefix.pch";
+				INFOPLIST_FILE = "Islam QuotesTests/Islam QuotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B84AED1319B633E8007CE60C /* Build configuration list for PBXProject "Islam Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84AED4819B633E8007CE60C /* Debug */,
+				B84AED4919B633E8007CE60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84AED4A19B633E8007CE60C /* Build configuration list for PBXNativeTarget "Islam Quotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84AED4B19B633E8007CE60C /* Debug */,
+				B84AED4C19B633E8007CE60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84AED4D19B633E8007CE60C /* Build configuration list for PBXNativeTarget "Islam QuotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84AED4E19B633E8007CE60C /* Debug */,
+				B84AED4F19B633E8007CE60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B84AED1019B633E8007CE60C /* Project object */;
+}
